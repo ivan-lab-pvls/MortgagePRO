@@ -46,7 +46,6 @@ class MyApp extends StatelessWidget {
         Provider.value(value: shPref),
       ],
       child: MaterialApp.router(
-        title: 'Flutter Demo',
         theme: AppTheme.theme,
         debugShowCheckedModeBanner: false,
         routerConfig: AppRouter.config,
